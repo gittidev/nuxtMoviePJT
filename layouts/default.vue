@@ -1,14 +1,16 @@
 <script setup>
-import Navbar from "~/components/common/Navbar";
+import { Footer, Navbar } from "@/components";
+
 </script>
 
 <template>
   <div>
     <Navbar />
     <p>
-      Some default ldsfsfdsdkfjlskjflkjdslkfjlayout content shared across all
-      pages
+      Some default layout content shared across all pages
     </p>
-    <slot />
+    <!-- 페이지 컴포넌트를 렌더링 -->
+    <NuxtPage />
+    <Footer/>
   </div>
 </template>

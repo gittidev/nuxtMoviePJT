@@ -1,0 +1,14 @@
+body {
+  background-color: aquamarine;
+} /*# sourceMappingURL=main.css.map */
+
+@use "vuetify/settings" with (
+  $utilities: (
+    "cursor": (
+      property: cursor,
+      class: cursor,
+      values: auto default pointer wait text move help not-allowed progress grab
+        grabbing none
+    )
+  )
+);
