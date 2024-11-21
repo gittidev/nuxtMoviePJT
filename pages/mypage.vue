@@ -1,5 +1,5 @@
 <template>
-  <div>community</div>
+  <div>my</div>
 </template>
 
 <script lang="ts" setup></script>
